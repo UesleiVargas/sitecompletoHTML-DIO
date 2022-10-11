@@ -1,0 +1,182 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body 
+{
+    background-color: #d6f0f1;
+    display: flex; 
+}
+
+.wrapper 
+{
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: rgb(30, 148, 245);
+}
+
+.main 
+{
+    display: flex;
+    flex-flow: column;
+}
+
+.menu 
+{
+    width: 15%;
+    background-color: rgb(148, 183, 248);
+    padding: 10px 25px ;    
+}
+
+.menu a
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    font-size: 26px;
+    transition: 0.7s ease-in-out;
+    text-decoration: none;
+    
+}
+
+.menu a:hover
+{
+    color: rgb(181, 147, 212);
+    -webkit-text-stroke: 0.5px rgb(185, 19, 185);
+}
+
+.header 
+{
+    background-color: rgb(5, 108, 108);
+    
+   
+}
+
+.content 
+{
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+    font-size: 40px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.footer 
+{
+    background-color: rgb(99, 56, 240);
+    min-height: 50px;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+    font-size: 26px;
+    bottom: 2px;
+    font-size: 20px;
+    color: white;  
+}
+
+.icons
+{
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}
+
+.icon
+{
+    border-radius: 15px;
+
+}
+
+.text-footer
+{
+    display: flex;
+    align-items: flex-end; 
+    
+}
+
+.table  td
+{
+    border: solid 1px;
+    padding: 10px;
+    justify-content: center;
+    color: green;
+}
+
+.table tr:nth-child(even)
+{   
+    background-color: rgb(228, 228, 252);
+
+}
+
+.table tr:hover td
+{
+    background-color: darkgray;
+}
+thead
+{
+    background-color: #2f2f2f;
+    color: blanchedalmond;
+   
+}
+tfoot
+{
+    
+    background-color: rgb(32, 7, 7);
+}
+.form-area
+{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+}
+.contato
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 3rem;
+    margin-left: 15px;
+    
+}
+
+.text-area
+{
+    padding: 0.7rem 0 0 0.5rem;
+    font-size: 20px;
+
+}
+.botao-area
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: white;
+    
+   
+}
+.botoes
+{
+    padding: 0.6rem 3rem;
+    margin: 15px 5px 5rem 10px ;
+    border-radius: 15px;
+    cursor: pointer;
+    
+}
+
+.iframe
+{
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+}
